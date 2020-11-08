@@ -1,0 +1,9 @@
+<button type="button" (click)="restartGame()">Restart Game</button>
+
+<form (ngSubmit)="submit()">
+  <input type="text" [formControl]="coordinates" />
+  <button type="submit">Fire</button>
+</form>
+
+<div>{{ result }}</div>
+
